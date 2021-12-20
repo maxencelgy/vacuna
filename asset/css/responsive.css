@@ -1,0 +1,320 @@
+@media screen and (max-width: 1200px){
+    .wrap2 {
+        margin: 0 auto;
+    }
+    #connexion .wrap2 {
+        display: flex;
+        flex-direction: column;
+    }
+    #connexion .wrap2 .hotesse{
+        width: 200px;
+        height: 200px;
+        left: -10%;
+        top: 20%;
+    }
+    #connexion .wrap2 .box .rond{
+        width: 200px;
+        height: 200px;
+        left: -15%;
+        top: 20%;
+    }
+
+    #contact_head {
+        background-size: 180%;
+    }
+
+    #profil .information_contact > *:not(.title_profil){
+        padding-right: 1rem;
+    }
+}
+@media screen and (max-width: 926px){
+    header .wrap .icon {
+        display: block;
+    }
+    header .wrap nav ul li {
+        display: none;
+    }
+    header.responsive .wrap .logo {
+        display: none;
+    }
+
+    header.responsive .wrap nav ul li {
+        display: block;
+    }
+
+    header .wrap nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 860px) {
+
+
+    #connexion .wrap2 .hotesse {
+        width: 175px;
+        height: 175px;
+        left: 60%;
+        top: 55%;
+        transform: scaleX(-1);
+    }
+
+    #connexion .wrap2 .box .rond {
+        width: 165px;
+        height: 165px;
+        left: 65%;
+        top: 55%;
+    }
+
+    .wrap_profil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #profil .profil_name {
+        padding: 1rem 0 0 1rem;
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 2rem;
+        justify-content: space-between;
+        max-width: 550px;
+    }
+
+    #profil .profil_left {
+        width: 95%;
+    }
+
+    .wrap_profil .profil_right {
+        display: none;
+    }
+
+    #vaccin .grid h2 {
+        font-size: 1rem;
+    }
+
+    #vaccin .grid p {
+        font-size: 1rem;
+    }
+}
+    @media screen and (max-width: 640px){
+        #vaccin  h2 {
+            font-size: 1.6rem;
+            width: 99.333%;
+            text-align: center;
+            color: white;
+            padding: .5rem;
+        }
+        #vaccin  p{
+            font-size: 1.3rem;
+            text-align: center;
+            width: 99.3333%;
+            padding: .5rem;
+        }
+        #vaccin .addnew {
+            font-size: .8rem;
+        }
+    }
+
+    @media screen and (max-width: 800px){
+
+     #lost-pwd .back {
+        display: flex;
+        flex-direction: column;
+    }
+        #lost-pwd .back a{
+         margin-bottom: 1rem;
+        }
+
+
+    .title h2 {
+        font-size: 1.7rem;
+    }
+    .container{
+        width: 100%;
+        /*margin: auto;*/
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card-thumb{
+        width: 100%;
+        border-radius: 10px;
+    }
+    .card-body{
+        width: 100%;
+        /*min-height: auto;*/
+        margin-left: 0;
+        padding: 0;
+    }
+
+    #details .wrap3 .cards .card{
+        width: 48.333%;
+    }
+    #footer .wrap6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #vaccin{
+        background-color: var(--bleu);
+        padding: 1rem;
+    }
+
+    #formulaire form{
+        display: flex;
+        flex-direction: column;
+    }
+        #formulaire form > *{
+            width: 100%;
+        }
+
+
+    #contact .contact1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #contact .contact2 textarea {
+        width: 100%;
+    }
+
+    #contact_head {
+        background: url("../img/attente.png") center;
+        background-size: 250%;
+    }
+}
+@media (max-width: 550px){
+    #parallax {
+        display: none;
+    }
+    #profil .profil_name {
+        padding: 0 0 0 1rem;
+    }
+    #profil .profil_name h3 {
+        font-size: 1.1rem;
+    }
+    #profil .profil_name p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    #connexion .wrap2 .hotesse{
+        display: none;
+    }
+    #connexion .wrap2 .box .rond{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px){
+    .colonne_hiden {
+        display: none;
+    }
+    #vaccin  .grid h2{
+        font-size: .8rem;
+        padding: .2rem;
+    }
+    #vaccin  .grid p{
+        font-size: .7rem;
+        width: 100%;
+        padding: 0;
+    }
+    #vaccin .addnew {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    #testimonial .wrap_contact  p{
+        font-size: 1.3rem;
+
+    }
+    #testimonial .wrap_contact  form{
+        display: flex;
+        flex-direction: column;
+    }
+    #testimonial .wrap_contact  form label{
+        margin-bottom:1rem;
+        font-size: 1.2rem;
+    }
+    #testimonial .wrap_contact  form textarea{
+        resize: none;
+        height: 200px;
+        width: 100%;
+        padding: 1rem;
+        font-family: lato;
+        margin-bottom: 1rem;
+    }
+    #testimonial .wrap_contact  form input{
+        padding: 1rem;
+        border-radius: .3rem;
+        border: none;
+        font-size: 1rem;
+
+    }
+
+}
+
+@media screen and (max-width: 485px){
+    #details .wrap3 .cards .card{
+        width: 100%;
+    }
+    #details .wrap3 .cards .card{
+        width: 100%;
+    }
+
+
+    #connexion .wrap2 form .input{
+       width: 100%;
+    }
+    #connexion .wrap2 form .input2{
+        width: 100%;
+    }
+    #connexion .wrap2 form .submit{
+        width: 100%;
+    }
+    #footer .wrap6 nav ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #vaccin  .grid h2{
+        font-size: .8rem;
+        padding: .2rem;
+    }
+    #vaccin  .grid p{
+        font-size: .7rem;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+    }
+    #vaccin .addnew {
+        font-size: .8rem;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 320px){
+    #profil .profil_name {
+        display: flex;
+        flex-direction: column;
+    }
+    #profil .profil_left {
+        margin-left: 0;
+    }
+    #profil .information_contact {
+        padding: 0;
+    }
+}
+@media (max-width: 370px){
+    #connexion .wrap2 .inscription{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
